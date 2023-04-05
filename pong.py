@@ -230,7 +230,7 @@ while running:
 
     if is_over:
         screen.fill(BG_COLOR)
-        main_font.render_to(screen, (260, 200), "Game over, Press F for restart")
+        main_font.render_to(screen, (160, 200), "Game over, Press F for restart")
 
     clock.tick(FPS)
     pygame.display.update()
